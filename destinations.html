@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Explore Ghana's top tourist destinations - from UNESCO World Heritage Sites to stunning national parks and natural wonders.">
+    <meta name="keywords"
+        content="Ghana destinations, Cape Coast Castle, Kakum National Park, Elmina Castle, Mole National Park">
+    <title>Destinations | Discover Ghana</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar scrolled" id="navbar">
+        <div class="container">
+            <a href="index.html" class="nav-logo">
+                <span>Discover<span class="highlight">Ghana</span></span>
+            </a>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="destinations.html" class="nav-link active">Destinations</a></li>
+                <li><a href="culture.html" class="nav-link">Culture</a></li>
+                <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Explore <span class="text-gold">Destinations</span></h1>
+            <p>From ancient castles to pristine rainforests, discover the incredible diversity of Ghana's tourist
+                attractions.</p>
+            <div class="breadcrumb">
+                <a href="index.html">Home</a>
+                <span>/</span>
+                <span>Destinations</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Filter Section -->
+    <section class="section">
+        <div class="container">
+            <div class="gallery-filter">
+                <button class="filter-btn active" data-filter="all">All Destinations</button>
+                <button class="filter-btn" data-filter="historical">Historical Sites</button>
+                <button class="filter-btn" data-filter="nature">Nature & Wildlife</button>
+                <button class="filter-btn" data-filter="beach">Beaches</button>
+                <button class="filter-btn" data-filter="cultural">Cultural Sites</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Historical Sites Section -->
+    <section class="section" id="historical" style="padding-top: 0;">
+        <div class="container">
+            <div class="section-header" style="text-align: left;">
+                <h2><i class="fas fa-landmark text-gold"></i> Historical Sites</h2>
+                <p>Explore Ghana's rich history through its magnificent castles, forts, and monuments that tell stories
+                    of kingdoms, trade, and the struggle for independence.</p>
+            </div>
+            <div class="destinations-grid">
+                <!-- Cape Coast Castle -->
+                <div class="card fade-in" data-category="historical">
+                    <div class="card-image">
+                        <img src="images/cape_coast_castle.png" alt="Cape Coast Castle">
+                        <span class="card-badge">UNESCO Site</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Cape Coast Castle</h3>
+                        <p>Built in 1653 by Swedish traders, Cape Coast Castle stands as one of the most significant
+                            monuments of the transatlantic slave trade. This UNESCO World Heritage Site offers visitors
+                            a profound and emotional journey through history. The castle's dungeons, "Door of No
+                            Return," and museum provide invaluable insights into the African diaspora.</p>
+                        <div class="card-meta">
+                            <span><i class="fas fa-map-marker-alt"></i> Cape Coast, Central Region</span>
+                        </div>
+                        <div class="card-meta" style="margin-top: 0.5rem;">
+                            <span><i class="fas fa-clock"></i> Open: 9AM - 5PM Daily</span>
+                            <span><i class="fas fa-ticket-alt"></i> GH₵ 40</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Elmina Castle -->
+                <div class="card fade-in" data-category="historical">
+                    <div class="card-image">
+                        <img src="images/elmina_castle.png" alt="Elmina Castle">
+                        <span class="card-badge">UNESCO Site</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Elmina Castle (St. George's Castle)</h3>
+                        <p>The oldest European building in sub-Saharan Africa, Elmina Castle was established by the
+                            Portuguese in 1482. Originally built for gold trade, it later became a major hub for the
+                            slave trade. The castle's whitewashed walls and strategic location make it an architectural
+                            marvel and a powerful historical landmark.</p>
+                        <div class="card-meta">
+                            <span><i class="fas fa-map-marker-alt"></i> Elmina, Central Region</span>
+                        </div>
+                        <div class="card-meta" style="margin-top: 0.5rem;">
+                            <span><i class="fas fa-clock"></i> Open: 9AM - 5PM Daily</span>
+                            <span><i class="fas fa-ticket-alt"></i> GH₵ 40</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Kwame Nkrumah Memorial -->
+                <div class="card fade-in" data-category="historical">
+                    <div class="card-image">
+                        <img src="images/nkrumah_memorial.png" alt="Kwame Nkrumah Memorial Park">
+                        <span class="card-badge">Historical</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Kwame Nkrumah Memorial Park</h3>
+                        <p>Located on the site where Ghana declared independence on March 6, 1957, this park honors Dr.
+                            Kwame Nkrumah, Ghana's first President and a champion of Pan-Africanism. The memorial
+                            features his mausoleum, a museum with personal artifacts, and beautifully landscaped
+                            gardens.</p>
+                        <div class="card-meta">
+                            <span><i class="fas fa-map-marker-alt"></i> Accra, Greater Accra</span>
+                        </div>
+                        <div class="card-meta" style="margin-top: 0.5rem;">
+                            <span><i class="fas fa-clock"></i> Open: 9AM - 6PM Daily</span>
+                            <span><i class="fas fa-ticket-alt"></i> GH₵ 20</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Manhyia Palace -->
+                <div class="card fade-in" data-category="historical">
+                    <div class="card-image">
+                        <img src="images/manhyia_palace.png" alt="Manhyia Palace Museum">
+                        <span class="card-badge">Cultural</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Manhyia Palace Museum</h3>
+                        <p>The official residence of the Asantehene (King of the Ashanti), Manhyia Palace in Kumasi
+                            offers a glimpse into the rich heritage of the Ashanti Kingdom. The museum displays royal
+                            regalia, historical artifacts, and tells the story of the Ashanti people and their kings.
+                        </p>
+                        <div class="card-meta">
+                            <span><i class="fas fa-map-marker-alt"></i> Kumasi, Ashanti Region</span>
+                        </div>
+                        <div class="card-meta" style="margin-top: 0.5rem;">
+                            <span><i class="fas fa-clock"></i> Open: 9AM - 5PM (Closed Sundays)</span>
+                            <span><i class="fas fa-ticket-alt"></i> GH₵ 30</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Nature & Wildlife Section -->
+    <section class="section bg-light" id="nature">
+        <div class="container">
+            <div class="section-header" style="text-align: left;">
+                <h2><i class="fas fa-tree text-green"></i> Nature & Wildlife</h2>
+                <p>Experience Ghana's incredible biodiversity, from tropical rainforests with canopy walkways to vast
+                    savannahs teeming with wildlife.</p>
+            </div>
+            <div class="destinations-grid">
+                <!-- Kakum National Park -->
+                <div class="card fade-in" data-category="nature">
+                    <div class="card-image">
+                        <img src="images/kakum_canopy.png" alt="Kakum National Park Canopy Walkway">
+                        <span class="card-badge">Top Attraction</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Kakum National Park</h3>
+                        <p>Home to Ghana's only canopy walkway, Kakum National Park offers a unique perspective of the
+                            tropical rainforest from 30 meters above the ground. The park covers 375 square kilometers
+                            and is home to forest elephants, various primates, and over 400 butterfly species.</p>
+                        <div class="card-meta">
+                            <span><i class="fas fa-map-marker-alt"></i> Central Region</span>
+                        </div>
+                        <div class="card-meta" style="margin-top: 0.5rem;">
+                            <span><i class="fas fa-clock"></i> Open: 8AM - 5PM</span>
+                            <span><i class="fas fa-ticket-alt"></i> GH₵ 60 (with walkway)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mole National Park -->
+                <div class="card fade-in" data-category="nature">
+                    <div class="card-image">
+                        <img src="images/mole_elephants.png" alt="Mole National Park Elephants">
+                        <span class="card-badge">Safari</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Mole National Park</h3>
+                        <p>Ghana's largest wildlife refuge spanning 4,840 square kilometers. Home to elephants,
+                            antelopes, baboons, warthogs, and over 300 bird species. The park offers walking safaris,
+                            jeep tours, and stunning views from the Mole Motel perched on a ridge overlooking
+                            waterholes.</p>
+                        <div class="card-meta">
+                            <span><i class="fas fa-map-marker-alt"></i> Savannah Region</span>
+                        </div>
+                        <div class="card-meta" style="margin-top: 0.5rem;">
+                            <span><i class="fas fa-clock"></i> Open: 6AM - 6PM</span>
+                            <span><i class="fas fa-ticket-alt"></i> GH₵ 50</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Wli Waterfalls -->
+                <div class="card fade-in" data-category="nature">
+                    <div class="card-image">
+                        <img src="images/wli_waterfalls.png" alt="Wli Waterfalls">
+                        <span class="card-badge">Nature</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Wli Waterfalls</h3>
+                        <p>The highest waterfall in West Africa, Wli Falls cascades down from the Ghana-Togo border
+                            mountains. The trek to the lower falls takes about 45 minutes through lush vegetation, while
+                            the upper falls require a more challenging 3-hour hike. Home to thousands of fruit bats.</p>
+                        <div class="card-meta">
+                            <span><i class="fas fa-map-marker-alt"></i> Hohoe, Volta Region</span>
+                        </div>
+                        <div class="card-meta" style="margin-top: 0.5rem;">
+                            <span><i class="fas fa-hiking"></i> 45min - 3hr hike</span>
+                            <span><i class="fas fa-ticket-alt"></i> GH₵ 25</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Aburi Botanical Gardens -->
+                <div class="card fade-in" data-category="nature">
+                    <div class="card-image">
+                        <img src="images/aburi_gardens.png" alt="Aburi Botanical Gardens">
+                        <span class="card-badge">Gardens</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Aburi Botanical Gardens</h3>
+                        <p>Established in 1890, these gardens offer a peaceful retreat in the Akuapem Ridge mountains.
+                            Features century-old trees, diverse plant species, and cool mountain climate. Popular for
+                            picnics, nature walks, and photography.</p>
+                        <div class="card-meta">
+                            <span><i class="fas fa-map-marker-alt"></i> Aburi, Eastern Region</span>
+                        </div>
+                        <div class="card-meta" style="margin-top: 0.5rem;">
+                            <span><i class="fas fa-clock"></i> Open: 6AM - 6PM</span>
+                            <span><i class="fas fa-ticket-alt"></i> GH₵ 15</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Shai Hills -->
+                <div class="card fade-in" data-category="nature">
+                    <div class="card-image">
+                        <img src="images/mole_elephants.png" alt="Shai Hills Reserve">
+                        <span class="card-badge">Wildlife</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Shai Hills Resource Reserve</h3>
+                        <p>Just 55km from Accra, this reserve features rocky hills, grasslands, and forests. Home to
+                            baboons, antelopes, and various bird species. Visitors can explore ancient caves that once
+                            served as Shai people's hideouts.</p>
+                        <div class="card-meta">
+                            <span><i class="fas fa-map-marker-alt"></i> Greater Accra Region</span>
+                        </div>
+                        <div class="card-meta" style="margin-top: 0.5rem;">
+                            <span><i class="fas fa-clock"></i> Open: 6AM - 5PM</span>
+                            <span><i class="fas fa-ticket-alt"></i> GH₵ 20</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bunso Arboretum -->
+                <div class="card fade-in" data-category="nature">
+                    <div class="card-image">
+                        <img src="images/aburi_gardens.png" alt="Bunso Arboretum">
+                        <span class="card-badge">Eco-Tourism</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Bunso Arboretum</h3>
+                        <p>A 17-hectare ecological paradise featuring a canopy walkway, butterfly sanctuary, and herb
+                            garden. Home to over 110 bird species, giant snails, and beautiful orchids. Perfect for
+                            eco-tourism and educational visits.</p>
+                        <div class="card-meta">
+                            <span><i class="fas fa-map-marker-alt"></i> Eastern Region</span>
+                        </div>
+                        <div class="card-meta" style="margin-top: 0.5rem;">
+                            <span><i class="fas fa-clock"></i> Open: 8AM - 5PM</span>
+                            <span><i class="fas fa-ticket-alt"></i> GH₵ 30</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Beaches Section -->
+    <section class="section" id="beaches">
+        <div class="container">
+            <div class="section-header" style="text-align: left;">
+                <h2><i class="fas fa-umbrella-beach text-gold"></i> Beaches & Coastal Areas</h2>
+                <p>Relax on Ghana's beautiful Atlantic coastline, from vibrant beach resorts to serene hidden coves.</p>
+            </div>
+            <div class="destinations-grid">
+                <!-- Labadi Beach -->
+                <div class="card fade-in" data-category="beach">
+                    <div class="card-image">
+                        <img src="images/ghana_beach.png" alt="Labadi Beach">
+                        <span class="card-badge">Popular</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Labadi Beach</h3>
+                        <p>Accra's most popular beach destination, known for its lively atmosphere, beach bars, and
+                            weekend entertainment. Perfect for experiencing local beach culture with live music and
+                            horse rides.</p>
+                        <div class="card-meta">
+                            <span><i class="fas fa-map-marker-alt"></i> Accra, Greater Accra</span>
+                            <span><i class="fas fa-ticket-alt"></i> GH₵ 10</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Busua Beach -->
+                <div class="card fade-in" data-category="beach">
+                    <div class="card-image">
+                        <img src="images/ghana_fisherman.png" alt="Busua Beach">
+                        <span class="card-badge">Surfing</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Busua Beach</h3>
+                        <p>A surfer's paradise and one of Ghana's most beautiful beaches. This laid-back fishing village
+                            offers excellent waves, beachfront accommodations, and stunning sunsets over the Atlantic.
+                        </p>
+                        <div class="card-meta">
+                            <span><i class="fas fa-map-marker-alt"></i> Western Region</span>
+                            <span><i class="fas fa-water"></i> Great for Surfing</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Ada Foah -->
+                <div class="card fade-in" data-category="beach">
+                    <div class="card-image">
+                        <img src="images/ada_foah.png" alt="Ada Foah">
+                        <span class="card-badge">Water Sports</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Ada Foah</h3>
+                        <p>Where the Volta River meets the Atlantic Ocean. Famous for water sports, kite surfing, and
+                            the Aqua Safari Resort. Experience the unique ecosystem where freshwater and saltwater
+                            merge.</p>
+                        <div class="card-meta">
+                            <span><i class="fas fa-map-marker-alt"></i> Greater Accra Region</span>
+                            <span><i class="fas fa-ship"></i> Boat Tours Available</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Travel Tips Section -->
+    <section class="section bg-dark">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="text-white">Travel Tips for <span class="text-gold">Ghana</span></h2>
+                <p class="text-white" style="opacity: 0.9;">Make the most of your Ghanaian adventure with these helpful
+                    tips.</p>
+            </div>
+            <div class="grid grid-4">
+                <div class="feature-card fade-in">
+                    <div class="feature-icon">
+                        <i class="fas fa-sun"></i>
+                    </div>
+                    <h4>Best Time to Visit</h4>
+                    <p>November to March offers dry weather and is ideal for wildlife viewing and beach activities.</p>
+                </div>
+                <div class="feature-card fade-in">
+                    <div class="feature-icon">
+                        <i class="fas fa-money-bill-wave"></i>
+                    </div>
+                    <h4>Currency</h4>
+                    <p>The Ghana Cedi (GH₵) is the local currency. ATMs are widely available in major cities.</p>
+                </div>
+                <div class="feature-card fade-in">
+                    <div class="feature-icon">
+                        <i class="fas fa-language"></i>
+                    </div>
+                    <h4>Language</h4>
+                    <p>English is the official language. Local languages include Twi, Ga, Ewe, and many others.</p>
+                </div>
+                <div class="feature-card fade-in">
+                    <div class="feature-icon">
+                        <i class="fas fa-syringe"></i>
+                    </div>
+                    <h4>Health</h4>
+                    <p>Yellow fever vaccination required. Malaria prophylaxis recommended. Drink bottled water.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Plan Your Visit Today</h2>
+            <p>Need more information about visiting these amazing destinations? We're here to help you plan the perfect
+                trip.</p>
+            <a href="contact.html" class="btn btn-primary">
+                <i class="fas fa-paper-plane"></i> Contact Us
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="nav-logo">
+                        <span>Discover<span class="highlight">Ghana</span></span>
+                    </a>
+                    <p>Your gateway to exploring Ghana's rich culture, stunning landscapes, and vibrant heritage.
+                        Experience the warmth of West Africa.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="destinations.html">Destinations</a></li>
+                        <li><a href="culture.html">Culture</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Top Destinations</h4>
+                    <ul>
+                        <li><a href="destinations.html">Cape Coast Castle</a></li>
+                        <li><a href="destinations.html">Kakum National Park</a></li>
+                        <li><a href="destinations.html">Mole National Park</a></li>
+                        <li><a href="destinations.html">Elmina Castle</a></li>
+                        <li><a href="destinations.html">Wli Waterfalls</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt text-gold"></i> Accra, Ghana</li>
+                        <li><i class="fas fa-phone text-gold"></i> +233 302 123 456</li>
+                        <li><i class="fas fa-envelope text-gold"></i> info@discoverghana.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Discover Ghana. All Rights Reserved.</p>
+                <p>Designed for GCTU Internet Technology & Web Design Project</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

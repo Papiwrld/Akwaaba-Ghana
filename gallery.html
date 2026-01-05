@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Browse stunning photos of Ghana's landscapes, culture, wildlife, and people. Visual journey through West Africa's golden coast.">
+    <meta name="keywords"
+        content="Ghana photos, Ghana images, Ghana gallery, African photography, Ghana tourism pictures">
+    <title>Photo Gallery | Discover Ghana</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar scrolled" id="navbar">
+        <div class="container">
+            <a href="index.html" class="nav-logo">
+                <span>Discover<span class="highlight">Ghana</span></span>
+            </a>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="destinations.html" class="nav-link">Destinations</a></li>
+                <li><a href="culture.html" class="nav-link">Culture</a></li>
+                <li><a href="gallery.html" class="nav-link active">Gallery</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Photo <span class="text-gold">Gallery</span></h1>
+            <p>A visual journey through Ghana's breathtaking landscapes, vibrant culture, and warm-hearted people.</p>
+            <div class="breadcrumb">
+                <a href="index.html">Home</a>
+                <span>/</span>
+                <span>Gallery</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="section">
+        <div class="container">
+            <!-- Filter Buttons -->
+            <div class="gallery-filter">
+                <button class="filter-btn active" data-filter="all">All Photos</button>
+                <button class="filter-btn" data-filter="nature">Nature</button>
+                <button class="filter-btn" data-filter="culture">Culture</button>
+                <button class="filter-btn" data-filter="architecture">Architecture</button>
+                <button class="filter-btn" data-filter="people">People</button>
+            </div>
+
+            <!-- Gallery Grid -->
+            <div class="gallery-grid" id="gallery-grid">
+                <!-- Nature Images -->
+                <div class="gallery-item fade-in" data-category="nature">
+                    <img src="images/kakum_canopy.png" alt="Kakum National Park Canopy">
+                    <div class="gallery-overlay">
+                        <div>
+                            <h4>Kakum Canopy Walkway</h4>
+                            <span>Central Region</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item fade-in" data-category="nature">
+                    <img src="images/wli_waterfalls.png" alt="Wli Waterfalls">
+                    <div class="gallery-overlay">
+                        <div>
+                            <h4>Wli Waterfalls</h4>
+                            <span>Volta Region</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item fade-in" data-category="nature">
+                    <img src="images/mole_elephants.png" alt="Elephant at Mole">
+                    <div class="gallery-overlay">
+                        <div>
+                            <h4>Elephants at Mole</h4>
+                            <span>Savannah Region</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item fade-in" data-category="nature">
+                    <img src="images/aburi_gardens.png" alt="Aburi Gardens">
+                    <div class="gallery-overlay">
+                        <div>
+                            <h4>Aburi Botanical Gardens</h4>
+                            <span>Eastern Region</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item fade-in" data-category="nature">
+                    <img src="images/ghana_beach.png" alt="Ghana Beach">
+                    <div class="gallery-overlay">
+                        <div>
+                            <h4>Golden Beach</h4>
+                            <span>Western Region</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item fade-in" data-category="nature">
+                    <img src="images/ada_foah.png" alt="Ada Foah">
+                    <div class="gallery-overlay">
+                        <div>
+                            <h4>Ada Foah Estuary</h4>
+                            <span>Greater Accra</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Culture Images -->
+                <div class="gallery-item fade-in" data-category="culture">
+                    <img src="images/kente_weaving.png" alt="Kente Weaving">
+                    <div class="gallery-overlay">
+                        <div>
+                            <h4>Kente Weaving</h4>
+                            <span>Ashanti Region</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item fade-in" data-category="culture">
+                    <img src="images/ghana_dancer.png" alt="Traditional Dance">
+                    <div class="gallery-overlay">
+                        <div>
+                            <h4>Traditional Dance</h4>
+                            <span>Cultural Festival</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item fade-in" data-category="culture">
+                    <img src="images/ghana_festival.png" alt="Festival Celebration">
+                    <div class="gallery-overlay">
+                        <div>
+                            <h4>Festival Celebration</h4>
+                            <span>Traditional Event</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item fade-in" data-category="culture">
+                    <img src="images/krobo_beads.png" alt="Ghanaian Beads">
+                    <div class="gallery-overlay">
+                        <div>
+                            <h4>Krobo Beads</h4>
+                            <span>Eastern Region</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item fade-in" data-category="culture">
+                    <img src="images/ghana_drums.png" alt="Traditional Drumming">
+                    <div class="gallery-overlay">
+                        <div>
+                            <h4>Traditional Drumming</h4>
+                            <span>Musical Heritage</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item fade-in" data-category="culture">
+                    <img src="images/chale_wote.png" alt="Street Festival">
+                    <div class="gallery-overlay">
+                        <div>
+                            <h4>Street Celebration</h4>
+                            <span>Urban Culture</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Architecture Images -->
+                <div class="gallery-item fade-in" data-category="architecture">
+                    <img src="images/cape_coast_castle.png" alt="Cape Coast Castle">
+                    <div class="gallery-overlay">
+                        <div>
+                            <h4>Cape Coast Castle</h4>
+                            <span>UNESCO World Heritage</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item fade-in" data-category="architecture">
+                    <img src="images/elmina_castle.png" alt="Elmina Castle">
+                    <div class="gallery-overlay">
+                        <div>
+                            <h4>Elmina Castle</h4>
+                            <span>Central Region</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item fade-in" data-category="architecture">
+                    <img src="images/nkrumah_memorial.png" alt="Nkrumah Memorial">
+                    <div class="gallery-overlay">
+                        <div>
+                            <h4>Nkrumah Memorial</h4>
+                            <span>Accra</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item fade-in" data-category="architecture">
+                    <img src="images/manhyia_palace.png" alt="Manhyia Palace">
+                    <div class="gallery-overlay">
+                        <div>
+                            <h4>Manhyia Palace</h4>
+                            <span>Kumasi</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- People Images -->
+                <div class="gallery-item fade-in" data-category="people">
+                    <img src="images/ghana_people.png" alt="Ghanaian Smile">
+                    <div class="gallery-overlay">
+                        <div>
+                            <h4>Ghanaian Hospitality</h4>
+                            <span>Friendly Faces</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item fade-in" data-category="people">
+                    <img src="images/ghana_market.png" alt="Local Market">
+                    <div class="gallery-overlay">
+                        <div>
+                            <h4>Market Day</h4>
+                            <span>Local Life</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item fade-in" data-category="people">
+                    <img src="images/ghana_village.png" alt="Community Life">
+                    <div class="gallery-overlay">
+                        <div>
+                            <h4>Community Life</h4>
+                            <span>Village Scene</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item fade-in" data-category="people">
+                    <img src="images/ghana_artisan.png" alt="Artisan at Work">
+                    <div class="gallery-overlay">
+                        <div>
+                            <h4>Artisan at Work</h4>
+                            <span>Traditional Crafts</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Statistics Section -->
+    <section class="section bg-dark">
+        <div class="container">
+            <div class="hero-stats" style="justify-content: center; gap: 4rem;">
+                <div class="stat-item fade-in">
+                    <span class="stat-number">16</span>
+                    <span class="stat-label">Regions</span>
+                </div>
+                <div class="stat-item fade-in">
+                    <span class="stat-number">3</span>
+                    <span class="stat-label">UNESCO Sites</span>
+                </div>
+                <div class="stat-item fade-in">
+                    <span class="stat-number">100+</span>
+                    <span class="stat-label">Attractions</span>
+                </div>
+                <div class="stat-item fade-in">
+                    <span class="stat-number">50+</span>
+                    <span class="stat-label">Festivals</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Share Section -->
+    <section class="section">
+        <div class="container text-center">
+            <h2>Share Your Ghana Experience</h2>
+            <p style="max-width: 600px; margin: 0 auto 2rem;">Have photos from your Ghana adventure? We'd love to see
+                them! Share your memories on social media with <span class="text-gold">#DiscoverGhana</span></p>
+            <div class="social-links" style="justify-content: center;">
+                <a href="#" class="social-link" style="width: 60px; height: 60px; font-size: 1.5rem;"><i
+                        class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-link" style="width: 60px; height: 60px; font-size: 1.5rem;"><i
+                        class="fab fa-instagram"></i></a>
+                <a href="#" class="social-link" style="width: 60px; height: 60px; font-size: 1.5rem;"><i
+                        class="fab fa-twitter"></i></a>
+                <a href="#" class="social-link" style="width: 60px; height: 60px; font-size: 1.5rem;"><i
+                        class="fab fa-pinterest"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Ready to Create Your Own Memories?</h2>
+            <p>Start planning your journey to Ghana and capture your own stunning moments.</p>
+            <a href="contact.html" class="btn btn-primary">
+                <i class="fas fa-paper-plane"></i> Plan Your Trip
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="nav-logo">
+                        <span>Discover<span class="highlight">Ghana</span></span>
+                    </a>
+                    <p>Your gateway to exploring Ghana's rich culture, stunning landscapes, and vibrant heritage.
+                        Experience the warmth of West Africa.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="destinations.html">Destinations</a></li>
+                        <li><a href="culture.html">Culture</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Gallery Categories</h4>
+                    <ul>
+                        <li><a href="#" onclick="filterGallery('nature')">Nature</a></li>
+                        <li><a href="#" onclick="filterGallery('culture')">Culture</a></li>
+                        <li><a href="#" onclick="filterGallery('architecture')">Architecture</a></li>
+                        <li><a href="#" onclick="filterGallery('people')">People</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt text-gold"></i> Accra, Ghana</li>
+                        <li><i class="fas fa-phone text-gold"></i> +233 302 123 456</li>
+                        <li><i class="fas fa-envelope text-gold"></i> info@discoverghana.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Discover Ghana. All Rights Reserved.</p>
+                <p>Designed for GCTU Internet Technology & Web Design Project</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <div class="lightbox-content">
+            <span class="lightbox-close" id="lightbox-close">&times;</span>
+            <img src="" alt="Lightbox Image" id="lightbox-img">
+            <div class="lightbox-caption" id="lightbox-caption"></div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
