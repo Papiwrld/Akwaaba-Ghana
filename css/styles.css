@@ -310,7 +310,19 @@ ol {
 .nav-menu {
     display: flex;
     align-items: center;
-    gap: var(--spacing-lg);
+    gap: 0;
+}
+
+.nav-menu li {
+    display: flex;
+    align-items: center;
+}
+
+.nav-menu li:not(:last-child)::after {
+    content: ',';
+    color: rgba(255, 255, 255, 0.5);
+    margin: 0 var(--spacing-sm);
+    font-size: 0.95rem;
 }
 
 .nav-link {
@@ -1093,13 +1105,19 @@ ol {
 .breadcrumb {
     display: flex;
     justify-content: center;
-    gap: var(--spacing-sm);
+    gap: 0;
     margin-top: var(--spacing-md);
     position: relative;
 }
 
 .breadcrumb a {
     color: var(--color-gold);
+}
+
+.breadcrumb a::after {
+    content: ',';
+    color: rgba(255, 255, 255, 0.5);
+    margin: 0 var(--spacing-xs);
 }
 
 .breadcrumb span {
